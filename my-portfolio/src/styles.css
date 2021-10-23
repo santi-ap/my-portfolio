@@ -1,12 +1,41 @@
+/* ------- GLOBAL ------- */
 html,body{
     margin: 0;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 100%;
 
 }
 
-div{
-    
+/* ------- APP ------- */
+#app{
+    height: 100%;
+    /* border: 1px solid salmon; */
+}
+
+/* ------- NAVBAR ------- */
+
+#navbar img{
+    height: 30px;
+    border-radius: 50%;
+    margin: 1%
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+#navbar span{
+    /* margin:5px 0; */
+}
+
+/* ------- HEADER ------- */
+
+.socialDiv a,a:link:active, a:visited:active{
+    color:rgb(61, 61, 55);
+    margin: 5% 1%;
+}
+#header a:hover{
+    color:rgb(219, 219, 219)
 }
 
 #root{
@@ -14,13 +43,37 @@ div{
 }
 
 #header {
-    border: 5px solid rgb(8, 190, 214);
+    /* border: 5px solid rgb(8, 190, 214); */
     text-align: center;
-    padding: 5% 0;
+    padding: 5% 10%;
     height: 100%;
+    background-color: #79B4B7;
+    color:rgb(255, 255, 255)
+    /* margin: 0 auto; */
+    /* Might need to add some media queries if the 
+    height is too short */
 }
 
-#app{
-    height: 100%;
-    border: 1px solid salmon;
+#header p{
+    margin: 0 20%;
+    text-align: justify;
 }
+
+.resumeBtn {
+    margin: 0
+}
+
+.socialDiv{
+    padding: 2% 0;
+}
+
+.profilePic{
+    height: 150px;
+    border-radius: 50%;
+    margin: 1%
+}
+
+.socialIcon{
+    height: 20px;
+}
+
