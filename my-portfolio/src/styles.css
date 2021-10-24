@@ -57,6 +57,7 @@ html,body{
 #header p{
     margin: 0 20%;
     text-align: justify;
+    /* width: 300px */
 }
 
 .resumeBtn {
@@ -77,3 +78,84 @@ html,body{
     height: 20px;
 }
 
+/* ------- SKILLS ------- */
+#skills{
+    background-color: #F8F0DF
+    ;
+}
+
+/* ------- SKILLS CARD ------- */
+#skillsCard{
+    margin: 0 5%
+}
+
+#skillsCard .row{
+    margin: 0;
+    padding: 2% 2%
+}
+/* need some media queries here for the medium */
+#skillsCard .row div{
+    /* margin: 0; */
+    padding: 2% 2%
+}
+
+
+.card{
+    height: 320px;
+    width: 400px;
+    box-shadow: 0 15px 35px rgba(103, 103, 109, 0.219),0 5px 15px rgba(103, 103, 109, 0.219);
+    /* border-radius: 30px; */
+}
+
+.my-card-header{
+    /* border-radius: 30px; */
+    padding: 30px 0 0;
+    text-align: center;
+    /* background-image: linear-gradient( rgb(48, 223, 247), rgba(255,0,0,0)); */
+
+}
+
+.top-card-left{
+    /* position: absolute; */
+    padding-left: 20%;
+}
+
+.top-card-right{
+    /* position: absolute; */
+    padding-left: 3%;
+
+}
+
+/* ------- SKILL ------- */
+#skill{
+    /* background-color: #FEFBF3; */
+    /* border-radius: 50%; */
+    /* width: 400px; */
+    /* height: 100px; */
+    /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
+    /* box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),0 5px 15px rgba(0, 0, 0, 0.116) */
+    text-align: center;
+    display: inline-block !important;
+    /* margin: 0 10px 10px 0; */
+}
+
+#skill div div{
+    background-color: #FEFBF3;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),0 5px 15px rgba(0, 0, 0, 0.116);
+    margin: 0;
+}
+
+#skill p{
+    margin-top: 5px;
+    color: gray
+    /* box-shadow: 0 5px 35px gray;
+    background-color: transparent; */
+}
+
+#skill img{
+    height: 30px;
+}

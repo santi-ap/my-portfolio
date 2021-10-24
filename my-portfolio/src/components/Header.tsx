@@ -27,8 +27,8 @@ const Header: FC<HeaderProps> = (props) => {
                 </div>
                 <p>{props.devData.about}</p>
                 <div className="socialDiv">
-                    <a href="https://www.linkedin.com/in/santiago-ap/"><LinkedInIcon sx={{ fontSize: 35 }} /></a>
-                    <a href="https://github.com/santi-ap"><GitHubIcon sx={{ fontSize: 35 }} /></a>
+                    <a href={props.devData.socialUrls.linkedInUrl}><LinkedInIcon sx={{ fontSize: 35 }} /></a>
+                    <a href={props.devData.socialUrls.githubUrl}><GitHubIcon sx={{ fontSize: 35 }} /></a>
                 </div>
                 <div>
                     <Button className="resumeBtn" variant="contained" href="#outlined-buttons" startIcon={<DescriptionOutlinedIcon />}>
