@@ -17,7 +17,7 @@ function App() {
       <Projects/>
       <Experience/>
       <Education/>
-      <Footer/>
+      <Footer devData={developerData}/>
     </div>
   );
 }

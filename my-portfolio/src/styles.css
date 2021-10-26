@@ -1,161 +1,309 @@
 /* ------- GLOBAL ------- */
-html,body{
-    margin: 0;
-    /* border: 1px solid yellow; */
-    height: 100%;
-
+html,
+body {
+  margin: 0;
+  /* border: 1px solid yellow; */
+  height: 100%;
 }
 
 /* ------- APP ------- */
-#app{
-    height: 100%;
-    /* border: 1px solid salmon; */
+#app {
+  height: 100%;
+  /* border: 1px solid salmon; */
 }
 
 /* ------- NAVBAR ------- */
 
-#navbar img{
-    height: 30px;
-    border-radius: 50%;
-    margin: 1%
+#navbar img {
+  height: 30px;
+  border-radius: 50%;
+  margin: 1%;
 }
 
-.navbar-brand{
-    padding:0;
+.navbar-brand {
+  padding: 0;
 }
 
-#navbar span{
-    /* margin:5px 0; */
+#navbar span {
+  /* margin:5px 0; */
 }
 
 /* ------- HEADER ------- */
 
-.socialDiv a,a:link:active, a:visited:active{
-    color:rgb(61, 61, 55);
-    margin: 5% 1%;
+#header .socialDiv a,
+#header a:link:active,
+#header a:visited:active {
+  color: rgb(61, 61, 55);
+  /* margin: 5% 1%; */
 }
-#header a:hover{
-    color:rgb(219, 219, 219)
+#header a:hover {
+  color: rgb(219, 219, 219);
 }
 
-#root{
-    height: 100%;
+#root {
+  height: 100%;
 }
 
 #header {
-    /* border: 5px solid rgb(8, 190, 214); */
-    text-align: center;
-    padding: 5% 10%;
-    height: 100%;
-    background-color: #79B4B7;
-    color:rgb(255, 255, 255)
-    /* margin: 0 auto; */
-    /* Might need to add some media queries if the 
+  /* border: 5px solid rgb(8, 190, 214); */
+  text-align: center;
+  padding: 5% 10%;
+  height: 100%;
+  background-color: #79b4b7;
+  color: rgb(255, 255, 255);
+  /* margin: 0 auto; */
+  /* Might need to add some media queries if the 
     height is too short */
 }
 
-#header p{
-    margin: 0 20%;
-    text-align: justify;
-    /* width: 300px */
+#header p {
+  margin: 0 20%;
+  text-align: justify;
+  /* width: 300px */
 }
 
 .resumeBtn {
-    margin: 0
+  margin: 0;
 }
 
-.socialDiv{
-    padding: 2% 0;
+.socialDiv {
+  padding: 2% 0;
 }
 
-.profilePic{
-    height: 150px;
-    border-radius: 50%;
-    margin: 1%
+.profilePic {
+  height: 150px;
+  border-radius: 50%;
+  margin: 1%;
 }
 
-.socialIcon{
-    height: 20px;
+.socialIcon {
+  height: 20px;
 }
 
 /* ------- SKILLS ------- */
-#skills{
-    background-color: #F8F0DF
-    ;
+#skills {
+  background-color: #FEFBF3;
+}
+
+#skills h1{
+    padding-top: 2%;
+    text-align: center;
 }
 
 /* ------- SKILLS CARD ------- */
-#skillsCard{
-    margin: 0 5%
+#skillsCard {
+  margin: 0 5%;
 }
 
-#skillsCard .row{
-    margin: 0;
-    padding: 2% 2%
+#skillsCard .row {
+  margin: 0;
+  padding: 2% 2%;
 }
 /* need some media queries here for the medium */
-#skillsCard .row div{
-    /* margin: 0; */
-    padding: 2% 2%
+#skillsCard .row div {
+  /* margin: 0; */
+  padding: 2% 2%;
 }
 
-
-.card{
-    height: 320px;
-    width: 400px;
-    box-shadow: 0 15px 35px rgba(103, 103, 109, 0.219),0 5px 15px rgba(103, 103, 109, 0.219);
-    /* border-radius: 30px; */
+@media (max-width: 1450px) and (min-width: 980px) {
+  #skillsCard .col-lg-4 {
+    width: 50%;
+  }
 }
 
-.my-card-header{
-    /* border-radius: 30px; */
-    padding: 30px 0 0;
-    text-align: center;
-    /* background-image: linear-gradient( rgb(48, 223, 247), rgba(255,0,0,0)); */
-
+@media (max-width: 925px) and (min-width: 750px) {
+  #skillsCard .col-lg-4 {
+    width: 100%;
+  }
 }
 
-.top-card-left{
-    /* position: absolute; */
-    padding-left: 20%;
+#skillsCard .card {
+  height: 320px;
+  width: 400px;
+  box-shadow: 0 15px 35px rgba(103, 103, 109, 0.219),
+    0 5px 15px rgba(103, 103, 109, 0.219);
+  /* border-radius: 30px; */
 }
 
-.top-card-right{
-    /* position: absolute; */
-    padding-left: 3%;
+.my-card-header {
+  /* border-radius: 30px; */
+  padding: 30px 0 0;
+  text-align: center;
+  /* background-image: linear-gradient( rgb(48, 223, 247), rgba(255,0,0,0)); */
+}
 
+.top-card-left {
+  /* position: absolute; */
+  padding-left: 20%;
+}
+
+.top-card-right {
+  /* position: absolute; */
+  padding-left: 3%;
 }
 
 /* ------- SKILL ------- */
-#skill{
-    /* background-color: #FEFBF3; */
-    /* border-radius: 50%; */
-    /* width: 400px; */
-    /* height: 100px; */
-    /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
-    /* box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),0 5px 15px rgba(0, 0, 0, 0.116) */
-    text-align: center;
-    display: inline-block !important;
-    /* margin: 0 10px 10px 0; */
+#skill {
+  /* background-color: #FEFBF3; */
+  /* border-radius: 50%; */
+  /* width: 400px; */
+  /* height: 100px; */
+  /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
+  /* box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),0 5px 15px rgba(0, 0, 0, 0.116) */
+  text-align: center;
+  display: inline-block !important;
+  /* margin: 0 10px 10px 0; */
 }
 
-#skill div div{
-    background-color: #FEFBF3;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
-    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),0 5px 15px rgba(0, 0, 0, 0.116);
-    margin: 0;
+#skill div div {
+  background-color: #fefbf3;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  /* box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384); */
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.13),
+    0 5px 15px rgba(0, 0, 0, 0.116);
+  margin: 0;
 }
 
-#skill p{
-    margin-top: 5px;
-    color: gray
-    /* box-shadow: 0 5px 35px gray;
+#skill p {
+  margin-top: 5px;
+  color: gray;
+  /* box-shadow: 0 5px 35px gray;
     background-color: transparent; */
 }
 
-#skill img{
-    height: 30px;
+#skill img {
+  height: 35px;
+  /* width:  30px; */
 }
+
+/* ------- Experience ------- */
+#experience{
+    background-color: #FEFBF3;
+}
+
+#experience p{
+  margin-bottom: 20%;
+  text-align: justify;
+}
+
+#experience h1{
+  padding: 2% 0;
+  text-align: center;
+}
+
+#experience h3{
+  font-size: 23px;
+}
+
+#experience h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#experience img{
+  height: 50px;
+}
+
+#experience .time-line{
+  /* background-color: red; */
+  margin: 0;
+}
+
+.experience-div-right{
+  margin-right: 20%;
+  /* background-color: red; */
+}
+
+.experience-div-left{
+  margin-left: 20%;
+  /* background-color: red; */
+}
+
+/* ------- EDUCATION ------- */
+#education{
+  background-color: #F8F0DF;
+  padding: 0 10% 5%;
+}
+
+#education h1{
+  padding: 2% 0;
+  text-align: center;
+}
+
+#education .card{
+  height: 300px;
+  width: 500px;
+}
+
+.education-school{
+  padding: 5%;
+  text-align: center;
+  background-color: #9D9D9D;
+}
+
+#education .card-body{
+  padding-left: 10%;
+}
+
+.education-card{
+  margin-bottom: 5%;
+  box-shadow: 0 15px 35px rgba(103, 103, 109, 0.219),
+    0 5px 15px rgba(103, 103, 109, 0.219);
+}
+
+.education-card h5{
+  font-size: 20px;
+  margin: 0;
+}
+
+.education-date{
+  background-color: cadetblue;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: white;
+  margin: 4% 0;
+}
+
+.education-card h6{
+  font-size: 15px;
+  color: gray;
+  /* padding-top: 10px; */
+}
+
+.education-card img{
+  height: 50px;
+}
+
+@media (max-width: 1370px) and (min-width: 980px) {
+  #education .col-sm-12 {
+  /* background-color: red; */
+
+    width: 50%;
+  }
+}
+
+@media (max-width: 890px) and (min-width: 750px) {
+  #education .col-sm-12 {
+  /* background-color: green; */
+
+    width: 100%;
+  }
+}
+
+/* ------- FOOTER ------- */
+
+#footer h1{
+  padding: 2% 0;
+  text-align: center;
+}
+
+.copy-right{
+  text-align: center;
+}
+
+
+
+
