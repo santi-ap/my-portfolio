@@ -30,9 +30,10 @@ const EducationCard: FC<EduCardProp> = (props) => {
                 <div className="card-body ">
                     <h5 className="">{props.degree}</h5>
                     <div className="education-date">{props.date}</div>
-                    <h6>{props.country}</h6>
+                    {props.country && <h6>{props.country}</h6>}
+                    
                     {props.link &&
-                        <Button className="resumeBtn" variant="contained" href={props.link} >
+                        <Button className="education-btn" variant="contained" href={props.link} >
                             View Course
                         </Button>}
 

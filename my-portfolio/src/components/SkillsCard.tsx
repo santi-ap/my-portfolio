@@ -27,6 +27,7 @@ import unityIcon from '../images/unity-icon.png'
 import postmanIcon from '../images/postman-icon.png'
 import scrumIcon from '../images/scrum-icon.png'
 import trelloIcon from '../images/trello-icon.svg'
+import expressIcon from '../images/express-icon.png'
 
 
 
@@ -62,6 +63,7 @@ const SkillsCard: FC = () => {
                         <h5 className="my-card-header">Back End</h5>
                         <div className={innerCardClass}>
                             <Skill title="NodeJS" icon={nodeIcon}/>
+                            <Skill title="ExpressJS" icon={expressIcon}/>
                             <Skill title="TypeScript" icon={tsIcon}/>
                             <Skill title="Java" icon={javaIcon}/>
                             <Skill title="C#" icon={csIcon}/>

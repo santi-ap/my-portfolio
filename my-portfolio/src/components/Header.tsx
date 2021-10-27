@@ -17,7 +17,7 @@ const Header: FC<HeaderProps> = (props) => {
         <div id="header" className="d-flex align-items-center">
             
             <div >
-                <div><MUISwitch defaultChecked /></div>
+                {/* <div><MUISwitch defaultChecked /></div> */}
                 <div className="d-flex justify-content-center align-items-center">
                     <img className="profilePic" src={props.devData.profilePic} alt="profile" />
                     <div className="d-flex flex-column">

@@ -20,7 +20,7 @@ const Education: FC = () => {
             <div className="row">
                 <EducationCard
                     school="Udemy"
-                    degree="Web Development"
+                    degree="FULL STACK WEB DEVELOPEMENT"
                     date="2021"
                     link="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
                     schoolImg={udemyLogo}
@@ -41,7 +41,7 @@ const Education: FC = () => {
                     country="Costa Rica"
                     schoolImg={tecLogo}
                 />
-                
+
             </div>
         </div>
     );
