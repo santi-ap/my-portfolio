@@ -1,0 +1,9 @@
+{
+    "name": "Santiago Alfonso",
+    "about": "I'm a senior software engineer student currently focusing on full stack web development and video game development. I’m very passionate and self motivated to the point where I’ve sought out extracurricular courses and learning material in order to build on my programming skills so that I may work on projects that really interest me such as web and game development. I’m currently looking for an entry level web development position. In order to showcase some of my web development skills, I’ve created this portfolio using React with TypeScript along with some front end libraries such as Bootstrap and Material UI.",
+    "profilePic": "https://media-exp1.licdn.com/dms/image/C4D03AQFrt0IbKj13qA/profile-displayphoto-shrink_800_800/0/1558037926461?e=1640217600&v=beta&t=ThYXGGslpia3lssivbj0CyjxBN7kIrLcIxFQv0_VKyo",
+    "socialUrls": {
+        "linkedInUrl": "https://www.linkedin.com/in/santiago-ap/",
+        "githubUrl": "https://github.com/santi-ap"
+    }
+}

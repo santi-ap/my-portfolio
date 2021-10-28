@@ -33,7 +33,7 @@ const EducationCard: FC<EduCardProp> = (props) => {
                     {props.country && <h6>{props.country}</h6>}
                     
                     {props.link &&
-                        <Button className="education-btn" variant="contained" href={props.link} >
+                        <Button className="education-btn" variant="outlined" href={props.link} >
                             View Course
                         </Button>}
 

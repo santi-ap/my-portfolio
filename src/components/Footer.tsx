@@ -19,7 +19,7 @@ const Footer: FC<HeaderProps> = (props) => {
     return (
         <div id="footer">
             <h1>
-                Feel free to reach out
+                Contact me!
             </h1>
             <div className="contact-div">
 
@@ -35,7 +35,7 @@ const Footer: FC<HeaderProps> = (props) => {
                     </div>
                 </div>
 
-                <div className="socialDiv d-flex justify-content-center ">
+                <div className="socialDiv d-flex justify-content-center align-items-center">
                     <a href={props.devData.socialUrls.linkedInUrl}><LinkedInIcon sx={{ fontSize: 35 }} /></a>
                     <a href={props.devData.socialUrls.githubUrl}><GitHubIcon sx={{ fontSize: 35 }} /></a>
                     

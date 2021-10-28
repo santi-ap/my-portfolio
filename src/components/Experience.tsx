@@ -35,7 +35,7 @@ const Experience: FC = () => {
                         2020 – Present
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineDot>
+                        <TimelineDot className="time-line">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>

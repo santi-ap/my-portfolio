@@ -27,7 +27,7 @@ const ProjectSlide: FC<projectProps> = (props) => {
                     <p>{props.description}</p>
                 </div>
                 <div className="d-flex flex-column">
-                    <Button className="project-btn" variant="contained" href={props.githubUrl} startIcon={<GitHubIcon sx={{ fontSize: 35 }} />} >
+                    <Button className="project-btn my-btn" variant="contained" href={props.githubUrl} startIcon={<GitHubIcon sx={{ fontSize: 35 }} />} >
                         Repo
                     </Button>
                     {props.gPlayUrl && <Button className="project-btn" variant="outlined" href={props.gPlayUrl} >
@@ -61,7 +61,7 @@ const ProjectSlide: FC<projectProps> = (props) => {
                 <p>{props.description}</p>
             </div>
             <div>
-                <Button className="project-btn" variant="contained" href={props.githubUrl} startIcon={<GitHubIcon sx={{ fontSize: 35 }} />} >
+                <Button className="project-btn my-btn" variant="contained" href={props.githubUrl} startIcon={<GitHubIcon sx={{ fontSize: 35 }} />} >
                     Repo
                 </Button>
                 {props.gPlayUrl && <Button className="project-btn" variant="outlined" href={props.gPlayUrl} >

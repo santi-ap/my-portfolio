@@ -15,7 +15,7 @@ const Header: FC<HeaderProps> = (props) => {
     //I want a persistent navbar with my name
     return (
         <div id="header" className="d-flex align-items-center">
-            
+
             <div >
                 {/* <div><MUISwitch defaultChecked /></div> */}
                 <div className="d-flex justify-content-center align-items-center">
@@ -23,20 +23,31 @@ const Header: FC<HeaderProps> = (props) => {
                     <div className="d-flex flex-column">
                         <h2>Hi, I'm </h2>
                         <h1>{props.devData.name}</h1>
+                        <h3>Full Stack Web Dev | Game Dev</h3>
                     </div>
                 </div>
                 <p>{props.devData.about}</p>
-                <div className="socialDiv">
+                <div className="socialDiv d-flex align-items-center  justify-content-start">
                     <a href={props.devData.socialUrls.linkedInUrl}><LinkedInIcon sx={{ fontSize: 35 }} /></a>
                     <a href={props.devData.socialUrls.githubUrl}><GitHubIcon sx={{ fontSize: 35 }} /></a>
                 </div>
-                <div>
-                    <Button className="resumeBtn" variant="contained" href="#outlined-buttons" startIcon={<DescriptionOutlinedIcon />}>
-                        SEE MY RESUME
-                    </Button>
+                <div className="btns-div ">
+                    <div className="d-flex justify-content-start">
+                        <Button className="resumeBtn my-btn" variant="contained" href="#outlined-buttons" startIcon={<DescriptionOutlinedIcon />}>
+                            SEE MY RESUME
+                        </Button>
+                    </div>
+                    <div className="d-flex justify-content-start">
+                        <Button className="resumeBtn my-btn" variant="contained" href="https://github.com/santi-ap/my-portfolio" startIcon={<GitHubIcon sx={{ fontSize: 35 }} />}>
+                            THIS PORTFOLIO'S REPO
+                        </Button>
+                    </div>
+
 
 
                 </div>
+
+
             </div>
         </div>
     );
