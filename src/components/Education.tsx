@@ -40,6 +40,7 @@ const Education: FC = () => {
                     date="2014 - Incomplete"
                     country="Costa Rica"
                     schoolImg={tecLogo}
+                    isLast={true}
                 />
 
             </div>

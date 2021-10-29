@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ProjectSlide from './ProjectSlide';
 import elDorado from '../images/el-dorado.png'
-import myPortfolio from '../images/my-portfolio.png'
+import myPortfolio from '../images/my-portfolio3.png'
 
 const Projects: FC = () => {
 

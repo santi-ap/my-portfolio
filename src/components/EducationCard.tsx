@@ -8,13 +8,18 @@ interface EduCardProp {
     degree: string,
     date: string,
     country?: string,
-    link?: string
-    schoolImg: typeof tecLogo
+    link?: string,
+    schoolImg: typeof tecLogo,
+    isLast?:boolean
 }
 
 const EducationCard: FC<EduCardProp> = (props) => {
-    const cardClass: string = "col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center";
-
+    let cardClass: string = "col-sm-12 col-lg-4  d-flex justify-content-center";
+    if(props.isLast){
+        cardClass = cardClass + " col-md-12";
+    }else{
+        cardClass = cardClass + " col-md-6";
+    }
 
     return (
         <div className={cardClass}>

@@ -33,7 +33,7 @@ const Header: FC<HeaderProps> = (props) => {
                 </div>
                 <div className="btns-div ">
                     <div className="d-flex justify-content-start">
-                        <Button className="resumeBtn my-btn" variant="contained" href="#outlined-buttons" startIcon={<DescriptionOutlinedIcon />}>
+                        <Button className="resumeBtn my-btn" variant="contained" href="https://drive.google.com/file/d/1Csq0M9iJrQmSQRsExupBz1w-zpOUPXJX/view?usp=sharing" startIcon={<DescriptionOutlinedIcon />}>
                             SEE MY RESUME
                         </Button>
                     </div>
